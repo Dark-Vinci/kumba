@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.c2dec9e0.chunk.css",
-    "main.js": "/portfolio/static/js/main.8c542bb3.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.8c542bb3.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.abc600ea.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.abc600ea.js.map",
-    "static/js/2.0529ff20.chunk.js": "/portfolio/static/js/2.0529ff20.chunk.js",
-    "static/js/2.0529ff20.chunk.js.map": "/portfolio/static/js/2.0529ff20.chunk.js.map",
-    "static/js/3.ff4f8a82.chunk.js": "/portfolio/static/js/3.ff4f8a82.chunk.js",
-    "static/js/3.ff4f8a82.chunk.js.map": "/portfolio/static/js/3.ff4f8a82.chunk.js.map",
-    "index.html": "/portfolio/index.html",
-    "static/css/main.c2dec9e0.chunk.css.map": "/portfolio/static/css/main.c2dec9e0.chunk.css.map",
-    "static/js/2.0529ff20.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0529ff20.chunk.js.LICENSE.txt",
-    "static/media/IMG-20210614-WA0011.83dc31c5.jpg": "/portfolio/static/media/IMG-20210614-WA0011.83dc31c5.jpg",
-    "static/media/index.css": "/portfolio/static/media/Quicksand-Light.d9866972.woff"
+    "main.css": "/kumba/static/css/main.0ffad2fe.chunk.css",
+    "main.js": "/kumba/static/js/main.8c542bb3.chunk.js",
+    "main.js.map": "/kumba/static/js/main.8c542bb3.chunk.js.map",
+    "runtime-main.js": "/kumba/static/js/runtime-main.bd88f5a1.js",
+    "runtime-main.js.map": "/kumba/static/js/runtime-main.bd88f5a1.js.map",
+    "static/js/2.0529ff20.chunk.js": "/kumba/static/js/2.0529ff20.chunk.js",
+    "static/js/2.0529ff20.chunk.js.map": "/kumba/static/js/2.0529ff20.chunk.js.map",
+    "static/js/3.ff4f8a82.chunk.js": "/kumba/static/js/3.ff4f8a82.chunk.js",
+    "static/js/3.ff4f8a82.chunk.js.map": "/kumba/static/js/3.ff4f8a82.chunk.js.map",
+    "index.html": "/kumba/index.html",
+    "static/css/main.0ffad2fe.chunk.css.map": "/kumba/static/css/main.0ffad2fe.chunk.css.map",
+    "static/js/2.0529ff20.chunk.js.LICENSE.txt": "/kumba/static/js/2.0529ff20.chunk.js.LICENSE.txt",
+    "static/media/IMG-20210614-WA0011.83dc31c5.jpg": "/kumba/static/media/IMG-20210614-WA0011.83dc31c5.jpg",
+    "static/media/index.css": "/kumba/static/media/Quicksand-Light.d9866972.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.abc600ea.js",
+    "static/js/runtime-main.bd88f5a1.js",
     "static/js/2.0529ff20.chunk.js",
-    "static/css/main.c2dec9e0.chunk.css",
+    "static/css/main.0ffad2fe.chunk.css",
     "static/js/main.8c542bb3.chunk.js"
   ]
 }
