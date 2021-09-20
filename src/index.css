@@ -1,13 +1,299 @@
+@font-face {
+  font-family: 'Quicksand';
+  src: url("./fonts/Quicksand-Light.woff2") format("woff2"), url("./fonts/Quicksand-Light.woff") format("woff");
+  font-weight: 300;
+  font-style: normal;
+}
+
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
+  font-family: 'Quicksand';
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
 }
+
+div.homeContainer {
+  width: 100vw;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+div.homeContainer div.body {
+  min-width: 200px;
+  width: 50%;
+  height: 200px;
+}
+
+div.homeContainer div.body div.header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.homeContainer div.body button {
+  margin: 5px;
+  border: none;
+  color: white;
+  background-color: #020294;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  font-family: inherit;
+}
+
+div.homeContainer div.body h3 {
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+}
+
+div.profileContainer {
+  width: 100vw;
+  min-height: 100vh;
+  height: auto;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.profileContainer h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #010124;
+}
+
+div.profileContainer div.button button {
+  margin: 5px;
+  border: none;
+  color: white;
+  background-color: #020294;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  font-family: inherit;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+div.profileContainer div.button button:hover {
+  background-color: blue;
+  color: white;
+}
+
+div.profileContainer img {
+  width: 130px;
+  height: 130px;
+  border-radius: 30px;
+  -webkit-box-shadow: -1px 1px 3px blue;
+          box-shadow: -1px 1px 3px blue;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+div.profileContainer div.info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100px;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin-top: 10px;
+  height: auto;
+}
+
+div.profileContainer div.info span {
+  font-weight: bold;
+}
+
+div.profileContainer div.info div {
+  background-color: #aaaaff;
+  border-radius: 20px;
+  max-width: 300px;
+  margin: 5px;
+  color: #020238;
+}
+
+div.profileContainer div.info div h4 {
+  margin: 0px;
+}
+
+div.profileContainer div.info div p {
+  text-align: left;
+  padding: 5px;
+}
+
+div.profileContainer div.info p {
+  margin: 0px;
+  font-size: 18px;
+  padding-left: 10px;
+  padding: 0px;
+}
+
+div.profileContainer div.likesdislike {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 10px 0px;
+}
+
+div.profileContainer div.likesdislike div {
+  margin-right: 5px;
+  width: 100px;
+}
+
+div.profileContainer div.likesdislike div ul {
+  margin: 0px;
+  padding: 0px;
+  list-style-type: none;
+}
+
+div.profileContainer div.likesdislike div.dislike ul li {
+  border-radius: 13px;
+  margin-bottom: 8px;
+  color: #720404;
+  font-size: bold;
+  font-size: 20px;
+  background-color: #f8a79e;
+}
+
+div.profileContainer div.likesdislike div.like ul li {
+  border-radius: 13px;
+  margin-bottom: 8px;
+  color: #025009;
+  font-size: bold;
+  font-size: 20px;
+  background-color: #8df796;
+}
+
+div.summarybody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+div.summarybody div.product-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+div.summarybody div.button button {
+  margin: 5px;
+  border: none;
+  color: white;
+  background-color: #020294;
+  width: 120px;
+  height: 40px;
+  border-radius: 20px;
+  font-family: inherit;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+}
+
+div.summarybody div.button button:hover {
+  background-color: blue;
+  color: white;
+}
+
+div.summarybody div.price {
+  width: 280px;
+  background-color: #4f4fff;
+  color: white;
+  border-radius: 20px;
+}
+
+div.summarybody div.restaurant, div.summarybody div.customer {
+  background-color: #2a2af0;
+  color: white;
+  text-align: left;
+  width: 280px;
+  padding: 10px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border-radius: 20px;
+  margin-top: 10px;
+}
+
+div.summarybody h2 {
+  font-weight: bold;
+  font-size: 25px;
+}
+
+div.order-item {
+  color: #020235;
+  width: 200px;
+  border-radius: 10px;
+  margin-bottom: 5px;
+  background-color: #adadf3;
+  padding: 5px;
+}
+
+div.order-item div, div.order-item h3, div.order-item h4 {
+  margin: 0px;
+  padding: 0px;
+}
+/*# sourceMappingURL=index.css.map */
