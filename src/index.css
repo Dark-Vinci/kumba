@@ -34,6 +34,9 @@ div.homeContainer {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
+  height: 100vh;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 div.homeContainer div.body {
@@ -90,6 +93,8 @@ div.profileContainer {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 div.profileContainer h3 {
@@ -226,6 +231,8 @@ div.summarybody {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  overflow-y: hidden;
+  overflow-x: hidden;
 }
 
 div.summarybody div.product-list {

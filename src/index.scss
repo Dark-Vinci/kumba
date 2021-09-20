@@ -27,6 +27,9 @@ div.homeContainer {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
 
     div.body {
         min-width: 200px;
@@ -67,6 +70,8 @@ div.profileContainer {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow-y: hidden;
+    overflow-x: hidden;
 
     h3 {
         font-size: 30px;
@@ -188,6 +193,8 @@ div.summarybody {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    overflow-y: hidden;
+    overflow-x: hidden;
 
 
     div.product-list {
