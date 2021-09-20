@@ -61,7 +61,7 @@ function Summary ({ data }) {
                                 className="order-item" 
                                 key={ item.name }
                                 animate={{ x: 0 }}
-                                initial={{ x: i % 2 == 0 ?'100vw' : '-100vw' }}
+                                initial={{ x: i % 2 === 0 ?'100vw' : '-100vw' }}
                                 transition={{ type: 'spring', stiffness: 120 , delay: i + 1 }}
                             >
                                 <h4>{ item.category }</h4>
